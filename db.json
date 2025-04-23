@@ -1,0 +1,16 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quelle est la capitale de la Tunisie ?",
+      "options": ["Sfax", "Tunis", "Gabès", "Bizerte"],
+      "answer": "Tunis"
+    },
+    {
+      "id": 2,
+      "question": "Combien font 3 x 4 ?",
+      "options": ["7", "12", "9", "10"],
+      "answer": "12"
+    }
+  ]
+}
