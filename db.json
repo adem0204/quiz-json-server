@@ -60,5 +60,19 @@
       "answer": 1,
       "probability": 0.91
     }
+  ],
+  "leaderboard": [
+    {
+      "player": "Adem",
+      "score": 10
+    },
+    {
+      "player": "Hedi",
+      "score": 8
+    },
+    {
+      "player": "Test",
+      "score": 5
+    }
   ]
 }
