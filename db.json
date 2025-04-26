@@ -38,24 +38,8 @@
     "question": "Quel est le contraire de 'jour' ?",
     "options": ["Matin", "Soir", "Nuit", "Midi"],
     "answer": 2
-  },
-  {
-    "question": "Quel est l’ingrédient principal du couscous ?",
-    "options": ["Blé", "Riz", "Pâtes", "Orge"],
-    "answer": 0
-  },
-  {
-    "question": "Combien y a-t-il de continents sur Terre ?",
-    "options": ["5", "6", "7", "8"],
-    "answer": 2
   }
-],
-  "leaderboard": [
-    {
-      "player": "Adem",
-      "score": 9
-    },
-    {
+]
       "player": "Hedi",
       "score": 8
     }
