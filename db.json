@@ -1,16 +1,52 @@
-{
-  "questions": [
-    {
-      "id": 1,
-      "question": "Quelle est la capitale de la Tunisie ?",
-      "options": ["Sfax", "Tunis", "Gabès", "Bizerte"],
-      "answer": "Tunis"
-    },
-    {
-      "id": 2,
-      "question": "Combien font 3 x 4 ?",
-      "options": ["7", "12", "9", "10"],
-      "answer": "12"
-    }
-  ]
-}
+[
+  {
+    "question": "Quelle est la capitale de la Tunisie ?",
+    "options": ["Tunis", "Sfax", "Sousse", "Gabès"],
+    "answer": 0
+  },
+  {
+    "question": "Combien de jours y a-t-il dans une année normale ?",
+    "options": ["365", "366", "364", "360"],
+    "answer": 0
+  },
+  {
+    "question": "Quel est l’animal le plus rapide du monde ?",
+    "options": ["Lion", "Guépard", "Aigle", "Tigre"],
+    "answer": 1
+  },
+  {
+    "question": "Combien font 7 × 8 ?",
+    "options": ["54", "56", "58", "64"],
+    "answer": 1
+  },
+  {
+    "question": "Quel fruit donne l'huile d'olive ?",
+    "options": ["Olive", "Noix", "Amande", "Pomme"],
+    "answer": 0
+  },
+  {
+    "question": "Quel est le plus grand océan du monde ?",
+    "options": ["Océan Atlantique", "Océan Indien", "Océan Arctique", "Océan Pacifique"],
+    "answer": 3
+  },
+  {
+    "question": "Dans quel pays se trouve la Tour Eiffel ?",
+    "options": ["Espagne", "France", "Italie", "Allemagne"],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le contraire de 'jour' ?",
+    "options": ["Matin", "Soir", "Nuit", "Midi"],
+    "answer": 2
+  },
+  {
+    "question": "Quel est l’ingrédient principal du couscous ?",
+    "options": ["Blé", "Riz", "Pâtes", "Orge"],
+    "answer": 0
+  },
+  {
+    "question": "Combien y a-t-il de continents sur Terre ?",
+    "options": ["5", "6", "7", "8"],
+    "answer": 2
+  }
+]
