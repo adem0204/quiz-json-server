@@ -1,78 +1,52 @@
-{
-  "questions": [
-    {
-      "question": "Quelle est la capitale de la France ?",
-      "options": ["Paris", "Marseille", "Lyon", "Toulouse"],
-      "answer": 0,
-      "probability": 0.9
-    },
-    {
-      "question": "Combien y a-t-il de continents sur Terre ?",
-      "options": ["5", "6", "7", "8"],
-      "answer": 2,
-      "probability": 0.8
-    },
-    {
-      "question": "Qui a peint La Joconde ?",
-      "options": ["Van Gogh", "Picasso", "Da Vinci", "Monet"],
-      "answer": 2,
-      "probability": 0.85
-    },
-    {
-      "question": "Quelle est la plus grande planète du système solaire ?",
-      "options": ["Mars", "Jupiter", "Saturne", "Neptune"],
-      "answer": 1,
-      "probability": 0.88
-    },
-    {
-      "question": "Quel est l'élément chimique dont le symbole est O ?",
-      "options": ["Or", "Oxygène", "Osmium", "Ozone"],
-      "answer": 1,
-      "probability": 0.92
-    },
-    {
-      "question": "Combien font 9 x 9 ?",
-      "options": ["81", "72", "91", "99"],
-      "answer": 0,
-      "probability": 0.95
-    },
-    {
-      "question": "Quel pays est connu pour le Taj Mahal ?",
-      "options": ["Pakistan", "Inde", "Bangladesh", "Népal"],
-      "answer": 1,
-      "probability": 0.87
-    },
-    {
-      "question": "Quelle est la langue la plus parlée dans le monde ?",
-      "options": ["Anglais", "Mandarin", "Espagnol", "Hindi"],
-      "answer": 1,
-      "probability": 0.86
-    },
-    {
-      "question": "Quel est le plus grand océan de la Terre ?",
-      "options": ["Atlantique", "Indien", "Arctique", "Pacifique"],
-      "answer": 3,
-      "probability": 0.89
-    },
-    {
-      "question": "Qui a découvert la gravité ?",
-      "options": ["Galilée", "Newton", "Einstein", "Tesla"],
-      "answer": 1,
-      "probability": 0.91
-    }
-  ],
-  "leaderboard": [
-    {
-      "player": "Adem",
-      "score": 9
-    },
-    {
-      "player": "Hedi",
-      "score": 10
-    },
-    {
-      "player": "Lynda",
-      "score": 5
-    }
-  ]
-}
+[
+  {
+    "question": "Quel mot-clé est utilisé pour créer une instance d'une classe en Java ?",
+    "options": ["create", "new", "instance", "class"],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le type de retour de la méthode main en Java ?",
+    "options": ["void", "int", "String", "boolean"],
+    "answer": 0
+  },
+  {
+    "question": "Quel mot-clé permet de hériter d’une classe en Java ?",
+    "options": ["implement", "inherit", "extends", "super"],
+    "answer": 2
+  },
+  {
+    "question": "Quelle interface Java est utilisée pour exécuter du code dans un thread ?",
+    "options": ["Runnable", "Threadable", "Callable", "Executor"],
+    "answer": 0
+  },
+  {
+    "question": "Quelle est la portée par défaut d'une variable d'instance si aucun modificateur d’accès n’est précisé ?",
+    "options": ["private", "public", "protected", "package-private"],
+    "answer": 3
+  },
+  {
+    "question": "Quel est le mot-clé utilisé pour empêcher l’héritage d’une classe ?",
+    "options": ["static", "abstract", "final", "sealed"],
+    "answer": 2
+  },
+  {
+    "question": "Quel package doit être importé pour utiliser ArrayList ?",
+    "options": ["java.array", "java.list", "java.util", "java.collection"],
+    "answer": 2
+  },
+  {
+    "question": "Quelle méthode est utilisée pour comparer deux chaînes en Java ?",
+    "options": ["==", "equals()", "compare()", "isEqual()"],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le résultat de 10 / 3 en Java (entiers) ?",
+    "options": ["3.33", "3", "3.0", "Erreur de compilation"],
+    "answer": 1
+  },
+  {
+    "question": "Quel mot-clé permet d’implémenter une interface ?",
+    "options": ["extends", "uses", "inherits", "implements"],
+    "answer": 3
+  }
+]
