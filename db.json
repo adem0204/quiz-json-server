@@ -1,52 +1,64 @@
-[
-  {
-    "question": "Quel mot-clé est utilisé pour créer une instance d'une classe en Java ?",
-    "options": ["create", "new", "instance", "class"],
-    "answer": 1
-  },
-  {
-    "question": "Quel est le type de retour de la méthode main en Java ?",
-    "options": ["void", "int", "String", "boolean"],
-    "answer": 0
-  },
-  {
-    "question": "Quel mot-clé permet de hériter d’une classe en Java ?",
-    "options": ["implement", "inherit", "extends", "super"],
-    "answer": 2
-  },
-  {
-    "question": "Quelle interface Java est utilisée pour exécuter du code dans un thread ?",
-    "options": ["Runnable", "Threadable", "Callable", "Executor"],
-    "answer": 0
-  },
-  {
-    "question": "Quelle est la portée par défaut d'une variable d'instance si aucun modificateur d’accès n’est précisé ?",
-    "options": ["private", "public", "protected", "package-private"],
-    "answer": 3
-  },
-  {
-    "question": "Quel est le mot-clé utilisé pour empêcher l’héritage d’une classe ?",
-    "options": ["static", "abstract", "final", "sealed"],
-    "answer": 2
-  },
-  {
-    "question": "Quel package doit être importé pour utiliser ArrayList ?",
-    "options": ["java.array", "java.list", "java.util", "java.collection"],
-    "answer": 2
-  },
-  {
-    "question": "Quelle méthode est utilisée pour comparer deux chaînes en Java ?",
-    "options": ["==", "equals()", "compare()", "isEqual()"],
-    "answer": 1
-  },
-  {
-    "question": "Quel est le résultat de 10 / 3 en Java (entiers) ?",
-    "options": ["3.33", "3", "3.0", "Erreur de compilation"],
-    "answer": 1
-  },
-  {
-    "question": "Quel mot-clé permet d’implémenter une interface ?",
-    "options": ["extends", "uses", "inherits", "implements"],
-    "answer": 3
-  }
-]
+{
+  "questions": [
+    {
+      "question": "Quel mot-clé est utilisé pour hériter d'une classe en Java ?",
+      "options": ["this", "super", "extends", "implements"],
+      "answer": 2,
+      "probability": 0.9
+    },
+    {
+      "question": "Quelle est la taille d'un type de donnée int en Java ?",
+      "options": ["4 bits", "8 bits", "32 bits", "64 bits"],
+      "answer": 2,
+      "probability": 0.85
+    },
+    {
+      "question": "Quel est le résultat de 9 / 2 en Java ?",
+      "options": ["4", "4.5", "5", "Erreur"],
+      "answer": 0,
+      "probability": 0.8
+    },
+    {
+      "question": "Quelle est l’interface principale pour les collections en Java ?",
+      "options": ["Map", "Collection", "List", "Set"],
+      "answer": 1,
+      "probability": 0.75
+    },
+    {
+      "question": "Laquelle de ces classes est immuable ?",
+      "options": ["StringBuilder", "String", "ArrayList", "HashMap"],
+      "answer": 1,
+      "probability": 0.8
+    },
+    {
+      "question": "Quel package est automatiquement importé dans chaque programme Java ?",
+      "options": ["java.util", "java.io", "java.lang", "java.net"],
+      "answer": 2,
+      "probability": 0.7
+    },
+    {
+      "question": "Comment déclare-t-on une méthode abstraite ?",
+      "options": ["abstract void method();", "void abstract method();", "method() abstract;", "void method() {};"],
+      "answer": 0,
+      "probability": 0.85
+    },
+    {
+      "question": "Quel mot-clé empêche l’héritage d’une classe ?",
+      "options": ["private", "protected", "final", "static"],
+      "answer": 2,
+      "probability": 0.8
+    },
+    {
+      "question": "Que fait la méthode equals() ?",
+      "options": ["Compare les adresses mémoire", "Compare les valeurs des objets", "Crée un nouvel objet", "Supprime un objet"],
+      "answer": 1,
+      "probability": 0.9
+    },
+    {
+      "question": "Quelle est la sortie de System.out.println(3 + 4 + \"Java\") ?",
+      "options": ["7Java", "Java7", "34Java", "Erreur"],
+      "answer": 0,
+      "probability": 0.85
+    }
+  ]
+}
