@@ -60,5 +60,13 @@
       "answer": 0,
       "probability": 0.85
     }
+
+   ],
+  "leaderboard": [
+    { "player": "Hedi", "score": 10 },
+    { "player": "Adem", "score": 9 },
+    { "player": "Yessine", "score": 7 },
+    { "player": "Maria", "score": 3 }
   ]
+
 }
